@@ -153,6 +153,9 @@ NSString * NSStringFromSubredditCategory(RKSubredditCategory category)
     if (captchaValue) [parameters setObject:captchaValue forKey:@"captcha"];
     
     [parameters setObject:@"link" forKey:@"kind"];
+    [parameters setObject:@"true" forKey:@"resubmit"];
+	[parameters setObject:@"json" forKey:@"extension"];
+//    [parameters setObject:@"true" forKey:@"sendreplies"];
     
     return [self basicPostTaskWithPath:@"api/submit" parameters:parameters completion:completion];
 }

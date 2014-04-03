@@ -34,8 +34,8 @@ const NSInteger RKClientErrorTooManyFlairClassNames = 205;
 const NSInteger RKClientErrorArchived = 206;
 
 const NSInteger RKClientErrorInvalidMultiredditName = 401;
-const NSInteger RKClientErrorPermissionDenied = 401;
-const NSInteger RKClientErrorConflict = 401;
+const NSInteger RKClientErrorPermissionDenied = 402;
+const NSInteger RKClientErrorConflict = 403;
 
 const NSInteger RKClientErrorInternalServerError = 501;
 const NSInteger RKClientErrorBadGateway = 502;
